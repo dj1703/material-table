@@ -162,6 +162,7 @@ export const propTypes = {
   onChangeRowsPerPage: PropTypes.func,
   onChangePage: PropTypes.func,
   onOrderChange: PropTypes.func,
+  onChangeColumnHidden: PropTypes.func,
   onRowClick: PropTypes.func,
   onTreeExpandChange: PropTypes.func,
   tableRef: PropTypes.any,
